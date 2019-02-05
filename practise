@@ -1,0 +1,6 @@
+x = int(input('enter the number:'))
+y = int(input('enter the number:'))
+z = int(input('enter the number:'))
+n = int(input('enter the number:'))
+a = [[x,y,z] for i in range(x) for j in range(y) for k in range(z) if (i+j+k) != 0]
+print(a)
